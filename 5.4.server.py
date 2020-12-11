@@ -11,6 +11,7 @@ s = socket.socket()
 print("Socket successfully created")
 
 port = 8080
+
 s.bind(('', port))
 print("socket binded to " + str(port))
 
