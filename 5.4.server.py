@@ -6,7 +6,6 @@ import os
 
 """mydata = {"id": 505012, "name": "Azizi", "age": "29"}
 sendData = json.dumps(mydata)
-
 s = socket.socket()
 print("Socket successfully created")
 
